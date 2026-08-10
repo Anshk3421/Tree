@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tree Information</title>
+    <style>
+        /* This section makes the website look nice */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f9f4; /* Light earthy green background */
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c5e2e; /* Dark green for the main title */
+            text-align: center;
+            margin-top: 0;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .section-title {
+            color: #4a7c49;
+            border-bottom: 2px solid #e0ebe0;
+            padding-bottom: 5px;
+            margin-top: 25px;
+        }
+        ul {
+            background: #e9f2e9;
+            padding: 15px 15px 15px 40px;
+            border-radius: 8px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>[Tree Species Name]</h1>
+        <img src="https://via.placeholder.com/600x400?text=Upload+Tree+Photo+Here" alt="Photo of the tree">
+        <h2 class="section-title">About the Species</h2>
+        <p>Write a brief introduction about the tree here. You can include its scientific name, the family it belongs to, and what makes it recognizable when you look at it.</p>
+        <h2 class="section-title">Quick Facts</h2>
+        <ul>
+            <li><strong>Native Region:</strong> [Where is it found?]</li>
+            <li><strong>Typical Height:</strong> [How tall does it grow?]</li>
+            <li><strong>Environment:</strong> [What kind of soil or weather does it like?]</li>
+            <li><strong>Special Uses:</strong> [Does it provide fruit, medicine, or good shade?]</li>
+        </ul>
+        <h2 class="section-title">Detailed Description</h2>
+        <p>This is where you can write the full description. Talk about what the leaves look like, how the bark feels, and if it grows any flowers or fruits during specific seasons. You can also mention its ecological importance, like if specific birds or insects rely on it!</p>
+    </div>
+</body>
+</html>
