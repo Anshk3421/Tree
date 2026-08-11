@@ -3,222 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Bottle Palm | Hyophorbe lagenicaulis</title>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
-    
+    <title>Royal Palm | Roystonea regia</title>
     <style>
-        /* Base Styles & Cinematic Dark Theme */
+        /* Standard, vibrant, and simple styling */
         body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
             margin: 0;
-            padding: 0;
-            background-color: #0a110a; /* Deep dark green/black */
-            color: #e0e0e0;
-            font-family: 'Montserrat', sans-serif;
-            line-height: 1.8;
-        }
-
-        /* Hero Image Section (Full Screen) */
-        .hero {
-            height: 100vh;
-            background-image: linear-gradient(rgba(0, 50, 20, 0.6), rgba(10, 17, 10, 1)), url('https://images.unsplash.com/photo-1599598425947-3300bbce14ec?w=1200&auto=format&fit=crop');
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed; /* Creates a cool parallax effect */
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
             padding: 20px;
+            background-color: #f0fdf4; /* Bright, light mint green */
+            color: #333;
         }
-
-        .hero h1 {
-            font-family: 'Cinzel', serif;
-            font-size: 3.5rem;
-            color: #d4af37; /* Cinematic Gold */
-            margin: 0;
-            letter-spacing: 3px;
-            text-transform: uppercase;
-        }
-
-        .hero h2 {
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 300;
-            font-size: 1.2rem;
-            color: #a0cfa0;
-            letter-spacing: 2px;
-            font-style: italic;
-            margin-top: 10px;
-        }
-
-        /* Content Sections */
-        .content-section {
-            max-width: 800px;
+        .container {
+            max-width: 600px;
             margin: 0 auto;
-            padding: 60px 20px;
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
         }
-
-        .content-section h3 {
-            font-family: 'Cinzel', serif;
-            font-size: 2rem;
-            color: #d4af37;
-            border-bottom: 1px solid #2a3b2a;
-            padding-bottom: 10px;
-            margin-bottom: 20px;
-        }
-
-        .content-section p {
-            font-size: 1.1rem;
-            color: #cccccc;
-            margin-bottom: 20px;
-        }
-
-        /* Fact Grid */
-        .fact-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-            margin: 40px 0;
-        }
-
-        .fact-card {
-            background-color: #121f12;
-            padding: 20px;
-            border-radius: 8px;
-            border-left: 4px solid #d4af37;
-            box-shadow: 0 10px 20px rgba(0,0,0,0.5);
-        }
-
-        .fact-card h4 {
-            font-family: 'Cinzel', serif;
-            color: #a0cfa0;
-            margin-top: 0;
-            font-size: 1.2rem;
-        }
-
-        /* Image Gallery */
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 15px;
-            margin-top: 40px;
-        }
-
-        .gallery img {
-            width: 100%;
-            height: 250px;
-            object-fit: cover;
-            border-radius: 8px;
-            transition: transform 0.3s ease;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.6);
-        }
-
-        .gallery img:hover {
-            transform: scale(1.03);
-        }
-
-        /* Footer */
-        .footer {
+        h1 {
+            color: #16a34a; /* Vibrant green */
             text-align: center;
-            padding: 30px;
-            background-color: #050a05;
-            font-size: 0.9rem;
-            color: #666;
-            font-family: 'Cinzel', serif;
-            letter-spacing: 1px;
+            margin-bottom: 5px;
         }
-
-        /* Mobile Responsiveness */
-        @media (max-width: 600px) {
-            .hero h1 { font-size: 2.5rem; }
-            .hero h2 { font-size: 1rem; }
-            .content-section { padding: 40px 15px; }
-        }
-    </style>
-</head>
-<body>
-
-    <header class="hero">
-        <h1>The Bottle Palm</h1>
-        <h2>Hyophorbe lagenicaulis</h2>
-    </header>
-
-    <main class="content-section">
-        
-        <h3>A Botanical Marvel</h3>
-        <p>The <strong>Bottle Palm</strong> is a fascinating, slow-growing palm species renowned worldwide for its unique, sculptural appearance. When mature, its trunk swells remarkably near the base and tapers upwards, creating a shape identical to an antique glass bottle. However, when the tree is young, this swelling is hidden by the tightly wrapped leaf bases.</p>
-
-        <div class="fact-grid">
-            <div class="fact-card">
-                <h4>Native Realm</h4>
-                <p>Endemic solely to Round Island, a small volcanic island off the coast of Mauritius in the Indian Ocean.</p>
-            </div>
-            <div class="fact-card">
-                <h4>Canopy</h4>
-                <p>Unlike other palms that hold dozens of leaves, the Bottle Palm elegantly supports only 4 to 6 arching, feather-like fronds at a time.</p>
-            </div>
-            <div class="fact-card">
-                <h4>Growth</h4>
-                <p>A true test of patience. It is incredibly slow-growing, taking many years to form its signature swollen trunk.</p>
-            </div>
-        </div>
-
-        <h3>Conservation: A Race Against Time</h3>
-        <p>Despite being a popular ornamental plant in tropical gardens and schools around the globe, the Bottle Palm faces a tragic reality in the wild. According to the IUCN Red List, it is classified as <strong>Critically Endangered</strong>.</p>
-        <p>At one point, habitat destruction and the introduction of invasive species like rabbits and goats to Round Island decimated the wild population. Thanks to intense conservation efforts, the island is recovering, but wild Bottle Palms remain incredibly rare, making every planted specimen in gardens a living testament to its survival.</p>
-
-                <h3>Visual Guide</h3>
-        <p>Observe the sweeping fronds and the unique structure of this resilient species.</p>
-        <div class="gallery">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Hyophorbe_lagenicaulis_-_Flickr_-_kool_skatkat.jpg/600px-Hyophorbe_lagenicaulis_-_Flickr_-_kool_skatkat.jpg" alt="Bottle Palm Fronds">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Hyophorbe_lagenicaulis_base.jpg/600px-Hyophorbe_lagenicaulis_base.jpg" alt="Bottle Palm Trunk Base">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Hyophorbe_lagenicaulis_1.jpg/600px-Hyophorbe_lagenicaulis_1.jpg" alt="Full Bottle Palm Tree">
-        </div>
-
-
-    </main>
-
-    <footer class="footer">
-        Preserving Nature &bull; Udaipur School Green Initiative Project
-    </footer>
-
-</body>
-</html>
-color: #4a7c49;
-            border-bottom: 2px solid #e0ebe0;
+        h2 {
+            color: #15803d; /* Slightly darker green for section headers */
+            border-bottom: 2px solid #bbf7d0;
             padding-bottom: 5px;
             margin-top: 25px;
         }
-        ul {
-            background: #e9f2e9;
+        .scientific-name {
+            text-align: center;
+            font-style: italic;
+            color: #666;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            background-color: #e5e7eb; /* Shows a light grey box if the image hasn't loaded yet */
+        }
+        .fact-list {
+            background-color: #ecfdf5;
             padding: 15px 15px 15px 40px;
             border-radius: 8px;
         }
-        li {
-            margin-bottom: 8px;
+        .fact-list li {
+            margin-bottom: 10px;
         }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <h1>[Tree Species Name]</h1>
+        <h1>Royal Palm</h1>
+        <p class="scientific-name">Roystonea regia</p>
 
-        <img src="https://via.placeholder.com/600x400?text=Upload+Tree+Photo+Here" alt="Photo of the tree">
-
-        <h2 class="section-title">About the Species</h2>
-        <p>Write a brief introduction about the tree here. You can include its scientific name, the family it belongs to, and what makes it recognizable when you look at it.</p>
-
-        <h2 class="section-title">Quick Facts</h2>
-        <ul>
-            <li><strong>Native Region:</strong> [Where is it found?]</li>
-            <li><strong>Typical Height:</strong> [How tall does it grow?]</li>
-            <li><strong>Environment:</strong> [What kind of soil or weather does it like?]</li>
-            <li><strong>Special Uses:</strong> [Does it provide fruit, medicine, or good shade?]</li>
+        <img src="royal-palm-kolkata.jpg" alt="Royal Palms growing in India">
+        
+        <h2>About the Species</h2>
+        <p><strong>Roystonea regia</strong>, commonly known as the Cuban royal palm or Florida royal palm, is a large and majestic species of palm. Native to Mexico, parts of Central America, the Caribbean, and southern Florida, it is widely planted as a decorative tree in tropical and subtropical regions worldwide, including school gardens across India.</p>
+        
+        <h2>Wikipedia Quick Facts</h2>
+        <ul class="fact-list">
+            <li><strong>Appearance:</strong> Mature trees have a smooth, light-grey trunk that resembles a stone column. When the tree is young, this trunk is hidden by a bright green "crownshaft" made of tightly wrapped leaf bases.</li>
+            <li><strong>Leaves:</strong> It features long, pinnate (feathery) leaves that can reach up to 4 meters (13 feet) in length.</li>
+            <li><strong>Height:</strong> In ideal conditions, these fast-growing palms can reach heights of 20 to 30 meters (66–98 feet).</li>
+            <li><strong>Ecology:</strong> The tree's flowers provide a rich source of nectar for bees and bats, while its seeds are a food source for local bird populations.</li>
         </ul>
 
-        <h2 class="section-title">Detailed Description</h2>
-        <p>This is where you can write the full description. Talk about what the leaves look like, how the bark feels, and if it grows any flowers or fruits during specific seasons. You can also mention its ecological importance, like if specific birds or insects rely on it!</p>
+        <h2>Growth in Warm Climates</h2>
+        <p>The Royal Palm thrives in full sunlight and warm temperatures, making it incredibly well-suited for the semi-arid, sunny climate of Rajasthan. They require moderate watering when young but become highly drought-tolerant as they establish their roots.</p>
+        
+        <img src="royal-palm-leaves.jpg" alt="Close up of Royal Palm leaves and green crownshaft">
     </div>
 
 </body>
